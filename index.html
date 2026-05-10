@@ -3,137 +3,271 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Участок с домом в Ивановке</title>
+    <meta name="description" content="Участок 8 соток с домом 75 м² в с. Ивановка, Чуйская область. Тихое место рядом с природой и железнодорожной станцией.">
+    <meta name="theme-color" content="#2d4a3e">
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Участок 8 соток с домом 75 м² в Ивановке">
+    <meta property="og:description" content="Тихий загородный дом в Чуйской области. 8 соток земли, 4 комнаты, терраса, удобный заезд.">
+    <meta property="og:image" content="./images/photo1.jpg">
+
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cpath fill='%232d4a3e' d='M32 6 6 28v30h18V42h16v16h18V28z'/%3E%3C/svg%3E">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <title>Дом 75 м² на 8 сотках · Ивановка, Чуйская обл.</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="page-shell">
-        <header class="hero">
-            <video class="hero-video" autoplay muted loop playsinline poster="images/hero-poster.jpg">
-                <source src="videos/hero-video.mp4" type="video/mp4">
+    <a class="skip-link" href="#main">Перейти к содержимому</a>
+
+    <nav class="nav" aria-label="Главная навигация">
+        <div class="nav-inner">
+            <a href="#top" class="nav-brand">
+                <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                    <path d="M12 3 3 11v10h6v-6h6v6h6V11z" fill="currentColor"/>
+                </svg>
+                <span>Дом в Ивановке</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="#about-house">О доме</a></li>
+                <li><a href="#highlights">Параметры</a></li>
+                <li><a href="#gallery">Галерея</a></li>
+                <li><a href="#contact">Контакты</a></li>
+            </ul>
+            <a href="#contact" class="nav-cta">Связаться</a>
+        </div>
+    </nav>
+
+    <main id="main" class="page-shell">
+        <header id="top" class="hero">
+            <video class="hero-video" autoplay muted loop playsinline>
+                <source src="videos/IMG_4329.MOV" type="video/mp4">
             </video>
-            <div class="hero-overlay"></div>
-            <div class="hero-content">
-                <span class="tag">Загородный дом</span>
-                <h1>8 соток, дом 75 м² в Ивановке</h1>
-                <p class="hero-subtitle">Большой участок с домом в Чуйской области — тишина, природа и комфорт.</p>
+            <div class="hero-overlay" aria-hidden="true"></div>
+            <div class="hero-content reveal">
+                <span class="tag">Загородный дом · Ивановка</span>
+                <h1>8 соток земли<br><span class="hero-accent">и уютный дом 75 м²</span></h1>
+                <p class="hero-subtitle">Тихий уголок Чуйской области — простор, природа и удобный заезд от станции Ивановка.</p>
                 <div class="hero-actions">
-                    <a href="#gallery" class="button button-primary">Посмотреть фото</a>
-                    <a href="#contact" class="button button-secondary">Контакты</a>
+                    <a href="#gallery" class="button button-primary">
+                        Посмотреть фото
+                        <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 12h14m-6-6 6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    </a>
+                    <a href="#contact" class="button button-ghost">Связаться</a>
                 </div>
             </div>
+            <a href="#highlights" class="hero-scroll" aria-label="Прокрутить вниз">
+                <span></span>
+            </a>
         </header>
 
-        <section class="intro-section">
-            <!-- <div class="intro-card">
-                <p>Адрес: Чуйская область, с. Ивановка, Ысый-Атинский район, ст. Ивановка, Турсуналиева 6</p>
-                <p>Участок 8 соток, дом 75 м². Прекрасная возможность для загородной жизни рядом с природой.</p>
-            </div> -->
+        <section id="highlights" class="highlights" aria-label="Ключевые параметры">
+            <div class="highlights-inner">
+                <div class="highlight-item reveal">
+                    <span class="highlight-value">8</span>
+                    <span class="highlight-label">соток земли</span>
+                </div>
+                <div class="highlight-item reveal" style="--delay: 80ms">
+                    <span class="highlight-value">75</span>
+                    <span class="highlight-label">м² жилой площади</span>
+                </div>
+                <div class="highlight-item reveal" style="--delay: 160ms">
+                    <span class="highlight-value">4</span>
+                    <span class="highlight-label">основные комнаты</span>
+                </div>
+                <div class="highlight-item reveal" style="--delay: 240ms">
+                    <span class="highlight-value">⟶</span>
+                    <span class="highlight-label">рядом ж/д станция</span>
+                </div>
+            </div>
         </section>
 
         <section id="about-house" class="content-section">
-            <h2>Описание дома</h2>
-            <p>Дом площадью 75 м² построен в классическом советском стиле. При входе находится просторная <strong>терраса</strong>, где можно обустроить кухню. Планировка включает <strong>большой зал</strong>, <strong>спальню</strong>, <strong>гостиную</strong> с проходом в <strong>ванную комнату</strong>, а также <strong>кладовку</strong> на террасе. Рядом проходит железная дорога, поэтому сюда удобно приехать на поезде — станция Ивановка находится неподалёку. Идеально подходит как для постоянного проживания, так и для загородного отдыха.</p>
+            <div class="section-head reveal">
+                <span class="eyebrow">О доме</span>
+                <h2>Классический советский стиль с большим потенциалом</h2>
+                <p class="section-description">
+                    Дом площадью 75 м² с просторной террасой при входе, где удобно обустроить летнюю кухню. Внутри — большой зал, спальня, гостиная с проходом в ванную и кладовка. Рядом проходит железная дорога: до станции Ивановка можно дойти пешком.
+                </p>
+            </div>
+
             <div class="features-grid">
-                <div class="feature-card">
+                <article class="feature-card reveal">
+                    <div class="feature-icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24"><path d="M3 21V10l9-7 9 7v11h-6v-7H9v7zM3 21h18" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>
+                    </div>
                     <h3>Терраса</h3>
-                    <p>Возможность обустроить кухню</p>
-                </div>
-                <div class="feature-card">
+                    <p>Светлая зона у входа — отличная база под летнюю кухню или столовую.</p>
+                </article>
+
+                <article class="feature-card reveal" style="--delay: 60ms">
+                    <div class="feature-icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24"><rect x="3" y="6" width="18" height="14" rx="2" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M3 11h18" stroke="currentColor" stroke-width="1.6"/></svg>
+                    </div>
                     <h3>Большой зал</h3>
-                    <p>Просторное центральное пространство</p>
-                </div>
-                <div class="feature-card">
+                    <p>Просторное центральное помещение, легко зонируется под нужды семьи.</p>
+                </article>
+
+                <article class="feature-card reveal" style="--delay: 120ms">
+                    <div class="feature-icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24"><path d="M3 18V9a3 3 0 0 1 3-3h12a3 3 0 0 1 3 3v9M3 14h18M6 18v3m12-3v3" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+                    </div>
                     <h3>Спальня</h3>
-                    <p>Уютная комната для отдыха</p>
-                </div>
-                <div class="feature-card">
+                    <p>Уютная отдельная комната для отдыха, тёплая и тихая.</p>
+                </article>
+
+                <article class="feature-card reveal" style="--delay: 180ms">
+                    <div class="feature-icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24"><path d="M4 20V8l8-4 8 4v12M4 20h16M9 20v-6h6v6" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>
+                    </div>
                     <h3>Гостиная</h3>
-                    <p>С проходом в ванную комнату</p>
-                </div>
-                <div class="feature-card">
-                    <h3>Ванная комната</h3>
-                    <p>Доступ из гостиной</p>
-                </div>
-                <div class="feature-card">
+                    <p>С проходом в ванную — удобная и логичная планировка.</p>
+                </article>
+
+                <article class="feature-card reveal" style="--delay: 240ms">
+                    <div class="feature-icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24"><path d="M5 21V11a3 3 0 0 1 3-3h8a3 3 0 0 1 3 3v10M5 14h14M9 8V5a3 3 0 0 1 6 0v3" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+                    </div>
+                    <h3>Ванная</h3>
+                    <p>Удобный доступ из гостиной, с потенциалом под современный ремонт.</p>
+                </article>
+
+                <article class="feature-card reveal" style="--delay: 300ms">
+                    <div class="feature-icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="2" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M4 9h16M9 9v11" stroke="currentColor" stroke-width="1.6"/></svg>
+                    </div>
                     <h3>Кладовка</h3>
-                    <p>На террасе для хранения</p>
-                </div>
+                    <p>На террасе — место для инструментов, заготовок и сезонных вещей.</p>
+                </article>
             </div>
         </section>
 
         <section id="gallery" class="content-section gallery-section">
-            <h2>Галерея</h2>
+            <div class="section-head reveal">
+                <span class="eyebrow">Фотографии</span>
+                <h2>Дом и участок в кадре</h2>
+                <p class="section-description">Нажмите на любое фото, чтобы увидеть его в полном размере.</p>
+            </div>
+
             <div class="gallery-grid">
-                <div class="gallery-item" style="--index: 1">
-                    <img src="./images/photo1.jpg" alt="Фото 1">
-                </div>
-                <div class="gallery-item" style="--index: 2">
-                    <img src="./images/photo2.jpg" alt="Фото 2">
-                </div>
-                <div class="gallery-item" style="--index: 3">
-                    <img src="./images/photo3.jpg" alt="Фото 3">
-                </div>
-                <div class="gallery-item" style="--index: 4">
-                    <img src="./images/photo4.jpg" alt="Фото 4">
-                </div>
-                <div class="gallery-item" style="--index: 5">
-                    <img src="./images/photo5.jpg" alt="Фото 5">
-                </div>
-                <div class="gallery-item" style="--index: 6">
-                    <img src="./images/photo6.jpg" alt="Фото 6">
-                </div>
-                <div class="gallery-item" style="--index: 7">
-                    <img src="./images/photo7.jpg" alt="Фото 7">
-                </div>
-                <div class="gallery-item" style="--index: 8">
-                    <img src="./images/photo8.jpg" alt="Фото 8">
-                </div>
-                <div class="gallery-item" style="--index: 9">
-                    <img src="./images/photo9.jpg" alt="Фото 9">
-                </div>
-                <div class="gallery-item" style="--index: 10">
-                    <img src="./images/photo10.jpg" alt="Фото 10">
-                </div>
-                <div class="gallery-item" style="--index: 11">
-                    <img src="./images/photo11.jpg" alt="Фото 11">
-                </div>
-                <div class="gallery-item" style="--index: 12">
-                    <img src="./images/photo12.jpg" alt="Фото 12">
-                </div>
+                <button type="button" class="gallery-item reveal" data-index="0">
+                    <img src="./images/photo1.jpg" alt="Внешний вид дома и участка" loading="lazy" decoding="async">
+                </button>
+                <button type="button" class="gallery-item reveal" data-index="1" style="--delay: 60ms">
+                    <img src="./images/photo2.jpg" alt="Вид на участок" loading="lazy" decoding="async">
+                </button>
+                <button type="button" class="gallery-item reveal" data-index="2" style="--delay: 120ms">
+                    <img src="./images/photo3.jpg" alt="Терраса при входе" loading="lazy" decoding="async">
+                </button>
+                <button type="button" class="gallery-item reveal" data-index="3" style="--delay: 180ms">
+                    <img src="./images/photo4.jpg" alt="Зал — центральное помещение дома" loading="lazy" decoding="async">
+                </button>
+                <button type="button" class="gallery-item reveal" data-index="4">
+                    <img src="./images/photo5.jpg" alt="Спальня" loading="lazy" decoding="async">
+                </button>
+                <button type="button" class="gallery-item reveal" data-index="5" style="--delay: 60ms">
+                    <img src="./images/photo6.jpg" alt="Гостиная с проходом в ванную" loading="lazy" decoding="async">
+                </button>
+                <button type="button" class="gallery-item reveal" data-index="6" style="--delay: 120ms">
+                    <img src="./images/photo7.jpg" alt="Ванная комната" loading="lazy" decoding="async">
+                </button>
+                <button type="button" class="gallery-item reveal" data-index="7" style="--delay: 180ms">
+                    <img src="./images/photo8.jpg" alt="Кладовка на террасе" loading="lazy" decoding="async">
+                </button>
+                <button type="button" class="gallery-item reveal" data-index="8">
+                    <img src="./images/photo9.jpg" alt="Сад и зелёная зона на участке" loading="lazy" decoding="async">
+                </button>
+                <button type="button" class="gallery-item reveal" data-index="9" style="--delay: 60ms">
+                    <img src="./images/photo10.jpg" alt="Двор и хозяйственная зона" loading="lazy" decoding="async">
+                </button>
+                <button type="button" class="gallery-item reveal" data-index="10" style="--delay: 120ms">
+                    <img src="./images/photo11.jpg" alt="Дополнительный вид участка" loading="lazy" decoding="async">
+                </button>
+                <button type="button" class="gallery-item reveal" data-index="11" style="--delay: 180ms">
+                    <img src="./images/photo12.jpg" alt="Окрестности дома" loading="lazy" decoding="async">
+                </button>
             </div>
         </section>
 
-        <section id="contact" class="content-section contact-section">
-            <h2>Контакты</h2>
-            <p>Заинтересовались участком? Напишите или позвоните, и я отвечу на все вопросы.</p>
+        <section class="cta reveal" aria-label="Призыв к действию">
+            <div class="cta-inner">
+                <h2>Готовы посмотреть дом вживую?</h2>
+                <p>Я отвечу на любые вопросы и согласую удобное время для просмотра.</p>
+                <a href="#contact" class="button button-primary button-light">
+                    Договориться о встрече
+                    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                </a>
+            </div>
+        </section>
+
+        <section id="contact" class="content-section contact-section reveal">
+            <div class="section-head">
+                <span class="eyebrow">Контакты</span>
+                <h2>Свяжитесь со мной</h2>
+                <p class="section-description">Заинтересовал участок? Напишите или позвоните — отвечу на все вопросы и пришлю дополнительные материалы.</p>
+            </div>
+
             <div class="contact-grid">
-                <div>
-                    <strong>Телефон:</strong>
-                    <p><a href="tel:+996707544094">+996 (707) 544 094</a></p>
-                    <p><a href="tel:+996705240667">+996 (705) 240 667</a></p>
+                <div class="contact-card">
+                    <div class="contact-icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24"><path d="M5 4h4l2 5-3 2a12 12 0 0 0 5 5l2-3 5 2v4a2 2 0 0 1-2 2A17 17 0 0 1 3 6a2 2 0 0 1 2-2z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg>
+                    </div>
+                    <span class="contact-label">Телефон</span>
+                    <a href="tel:+996707544094">+996 707 544 094</a>
+                    <a href="tel:+996705240667">+996 705 240 667</a>
                 </div>
-                <div>
-                    <strong>Email:</strong>
-                    <p><a href="mailto:moldogazievich@gmail.com">moldogazievich@gmail.com</a></p>
+
+                <div class="contact-card">
+                    <div class="contact-icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="m3 7 9 7 9-7" fill="none" stroke="currentColor" stroke-width="1.6"/></svg>
+                    </div>
+                    <span class="contact-label">Email</span>
+                    <a href="mailto:moldogazievich@gmail.com">moldogazievich@gmail.com</a>
                 </div>
-                <div>
-                    <strong>Адрес:</strong>
-                    <p><a href="https://2gis.kg/bishkek/geo/70030076155420237/75.067727%2C42.835954?m=75.0677%2C42.835528%2F18.21" target="_blank" rel="noreferrer noopener">Чуйская обл., с. Ивановка, Ысый-Атинский р-н, ст. Ивановка, Турсуналиева 6</a></p>
+
+                <div class="contact-card">
+                    <div class="contact-icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24"><path d="M12 22s7-7 7-13a7 7 0 0 0-14 0c0 6 7 13 7 13z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><circle cx="12" cy="9" r="2.5" fill="none" stroke="currentColor" stroke-width="1.6"/></svg>
+                    </div>
+                    <span class="contact-label">Адрес</span>
+                    <a href="https://2gis.kg/bishkek/geo/70030076155420237/75.067727%2C42.835954?m=75.0677%2C42.835528%2F18.21" target="_blank" rel="noreferrer noopener">
+                        Чуйская обл., с. Ивановка,<br>ул. Турсуналиева, 6
+                    </a>
                 </div>
             </div>
         </section>
 
-        <footer>
+        <section class="map-section reveal" aria-label="Карта">
             <div class="map-frame">
                 <iframe
+                    title="Карта расположения дома"
                     src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d914.6326893252637!2d75.06706784997463!3d42.83622834148128!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDLCsDUwJzE4LjYiTiA3NcKwMDAnNDcuNCJF!5e0!3m2!1sru!2skg!4v1700000000000"
-                    allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                    allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade">
                 </iframe>
             </div>
-            <p class="footer-copy">&copy; 2026 by aktanmo</p>
+        </section>
+
+        <footer class="footer">
+            <div class="footer-inner">
+                <div class="footer-brand">
+                    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 3 11v10h6v-6h6v6h6V11z" fill="currentColor"/></svg>
+                    <span>Дом в Ивановке</span>
+                </div>
+                <p class="footer-copy">© 2026 · aktanmo. Все права защищены.</p>
+            </div>
         </footer>
+    </main>
+
+    <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Просмотр фотографии" hidden>
+        <button class="lightbox-close" type="button" aria-label="Закрыть">×</button>
+        <button class="lightbox-prev" type="button" aria-label="Предыдущее фото">‹</button>
+        <img class="lightbox-image" alt="">
+        <button class="lightbox-next" type="button" aria-label="Следующее фото">›</button>
+        <div class="lightbox-counter" aria-live="polite"></div>
     </div>
+
     <script src="script.js"></script>
 </body>
 </html>
